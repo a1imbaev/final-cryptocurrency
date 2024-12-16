@@ -1,0 +1,44 @@
+.crypto-item {
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .crypto-details {
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+  
+  .tooltip-target {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .custom-tooltip {
+    background-color: #1e40af !important;
+    color: #ffffff !important;
+    font-size: 0.85rem;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 280px;
+    transform: translateY(-10px);
+  }
+  
+  .toggle-icon {
+    font-weight: bold;
+  }
+  
+  .positive {
+    color: green;
+  }
+  
+  .negative {
+    color: red;
+  }
+  

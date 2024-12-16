@@ -1,0 +1,47 @@
+.app {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.update-button {
+  background-color: white;
+  color: #1e40af;
+  border: 1px solid #1e40af;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.update-button:hover {
+  background-color: #1e40af;
+  color: white;
+}
+
+.search-input {
+  border: 1px solid #1e40af;
+  padding: 8px;
+  border-radius: 5px;
+  width: 250px;
+  margin: 10px 0;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #1e40af;
+}
+
+.loading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}

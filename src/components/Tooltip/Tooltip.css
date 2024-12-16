@@ -1,0 +1,15 @@
+.tooltip {
+    text-decoration: underline;
+    cursor: help;
+    color: #000;
+  }
+  
+  .tooltip-content {
+    background-color: #1e40af;
+    color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
